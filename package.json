@@ -1,0 +1,27 @@
+{
+  "name": "budget-control-fm-ingestion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budget-control-fm/budget-control-fm-ingestion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/budget-control-fm/budget-control-fm-ingestion/issues"
+  },
+  "homepage": "https://github.com/budget-control-fm/budget-control-fm-ingestion#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
